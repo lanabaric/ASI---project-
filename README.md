@@ -35,3 +35,16 @@ cd ASI---project-
 conda create -n mc_dropout python=3.10
 conda activate mc_dropout
 pip install -r requirements.txt
+
+---
+## Reproducing results
+
+Each experiment is modular:
+
+Run train_regression.py for CO₂ predictions
+
+Run classify_uncertainty.py to evaluate MC Dropout on rotated MNIST
+
+Run rl_uncertainty.py to compare exploration strategies
+
+Run evaluate_mc_dropout.py for benchmark metrics (use smaller sample sizes if slow)
