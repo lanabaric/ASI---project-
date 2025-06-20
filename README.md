@@ -35,6 +35,7 @@ cd ASI---project-
 conda create -n mc_dropout python=3.10
 conda activate mc_dropout
 pip install -r requirements.txt
+```
 
 ---
 ## Reproducing results
